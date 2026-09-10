@@ -13,6 +13,6 @@ total=[]
 for i in range(2):
     for j in range(4):
         total.append(a[i][j])
-print(sum(total)/len(total))
+print(f'{sum(total)/len(total):.1f}')
  
 
