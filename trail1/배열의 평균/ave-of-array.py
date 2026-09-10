@@ -10,8 +10,8 @@ for i in range(1):
 print()
 
 total=[]
-for i in range(len(a)):
-    for j in range(len(a[0])):
+for i in range(2):
+    for j in range(4):
         total.append(a[i][j])
 print(sum(total)/len(total))
  
